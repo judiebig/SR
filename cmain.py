@@ -1,13 +1,21 @@
 import pickle
+import logging
+import argparse
+import collections
 
-def _testyield():
-    for i in range(5):
-        yield i
+
+
+def m_print(log):
+    logging.info(log)
+    print(log)
+    return
+
+
+logging.basicConfig(level=logging.INFO, format='%(message)s', filename="result/log.txt", filemode='w')
+
 
 def main():
-    generator = _testyield()
-    for i in generator:
-        print(i)
+    pass
 
 
 if __name__ == "__main__":
