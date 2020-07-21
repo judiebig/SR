@@ -1,1 +1,11 @@
 # learn pytorch and complete SR task
+
+
+pytorch代码学习
+
+建议形式：
+1.数据加载器
+2.模型初始化
+3.优化器
+4.loss函数
+5.开启循环，进行每一个epoch的迭代来实现一轮轮的训练
