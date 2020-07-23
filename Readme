@@ -9,3 +9,16 @@ pytorch代码学习
 3.优化器
 4.loss函数
 5.开启循环，进行每一个epoch的迭代来实现一轮轮的训练
+
+
+# data.py : 处理data，同sr-gnn，re-gnn一样，用来shuffle，读batch，补齐
+
+
+
+
+
+
+
+
+实验结果
+# 只用last item结果大概在67.84 28.85左右 when lr=0.001   当lr=0.01时，只用item结果能达到69.16 29.38  当前模型参数为170M(embedding)

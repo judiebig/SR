@@ -1,0 +1,213 @@
+{
+    "dataset": "yoochoose1_64",
+    "batch_size": 100,
+    "epoch": 30,
+    "method": "normal",
+    "hidden_size": 100,
+    "lr": 0.01,
+    "lr_dc": 0.1,
+    "lr_dc_step": 3,
+    "l2": 1e-05,
+    "patience": 10,
+    "is_train_eval": true
+}
+epoch: 0, ===========================================
+start training: 2020-07-23 12:14:00.645827
+start predicting train data: 2020-07-23 12:15:33.684066
+current train result:
+	Recall@20:	66.10786699107867	MMR@20:	27.419863336401573	Epoch:	0
+start predicting: 2020-07-23 12:17:18.030955
+current test result:
+	Recall@20:	64.51878354203936	MMR@20:	25.778716413125842	Epoch:	0
+epoch: 1, ===========================================
+start training: 2020-07-23 12:17:33.931075
+start predicting train data: 2020-07-23 12:19:07.035995
+current train result:
+	Recall@20:	66.77453365774534	MMR@20:	27.630161015584033	Epoch:	1
+start predicting: 2020-07-23 12:20:51.567293
+current test result:
+	Recall@20:	65.33989266547407	MMR@20:	25.834257101167967	Epoch:	1
+epoch: 2, ===========================================
+start training: 2020-07-23 12:21:07.536567
+start predicting train data: 2020-07-23 12:22:40.223285
+current train result:
+	Recall@20:	67.47391186807246	MMR@20:	28.335887225560345	Epoch:	2
+start predicting: 2020-07-23 12:24:24.099377
+current test result:
+	Recall@20:	65.44722719141323	MMR@20:	26.265116728947053	Epoch:	2
+epoch: 3, ===========================================
+start training: 2020-07-23 12:24:40.281055
+start predicting train data: 2020-07-23 12:26:13.837978
+current train result:
+	Recall@20:	71.51851851851852	MMR@20:	32.04004407309316	Epoch:	3
+start predicting: 2020-07-23 12:27:57.795940
+current test result:
+	Recall@20:	68.64042933810376	MMR@20:	29.14460857150306	Epoch:	3
+epoch: 4, ===========================================
+start training: 2020-07-23 12:28:13.856970
+start predicting train data: 2020-07-23 12:29:47.867067
+current train result:
+	Recall@20:	72.02568261692349	MMR@20:	32.31131793498556	Epoch:	4
+start predicting: 2020-07-23 12:31:32.594908
+current test result:
+	Recall@20:	68.83005366726297	MMR@20:	29.315781902185574	Epoch:	4
+epoch: 5, ===========================================
+start training: 2020-07-23 12:31:48.472430
+start predicting train data: 2020-07-23 12:33:22.023816
+current train result:
+	Recall@20:	72.33982157339821	MMR@20:	32.48861838036524	Epoch:	5
+start predicting: 2020-07-23 12:35:06.587841
+current test result:
+	Recall@20:	68.97137745974955	MMR@20:	29.35320202351929	Epoch:	5
+epoch: 6, ===========================================
+start training: 2020-07-23 12:35:22.470377
+start predicting train data: 2020-07-23 12:36:56.966466
+current train result:
+	Recall@20:	72.43444174101109	MMR@20:	32.58712390694279	Epoch:	6
+start predicting: 2020-07-23 12:38:40.914334
+current test result:
+	Recall@20:	69.04293381037567	MMR@20:	29.4341612041022	Epoch:	6
+epoch: 7, ===========================================
+start training: 2020-07-23 12:38:56.837732
+start predicting train data: 2020-07-23 12:40:30.867974
+current train result:
+	Recall@20:	72.5014868883482	MMR@20:	32.51874618324268	Epoch:	7
+start predicting: 2020-07-23 12:42:15.240939
+current test result:
+	Recall@20:	69.11091234347049	MMR@20:	29.35352615685184	Epoch:	7
+epoch: 8, ===========================================
+start training: 2020-07-23 12:42:31.165335
+start predicting train data: 2020-07-23 12:44:06.197701
+current train result:
+	Recall@20:	72.52176263855095	MMR@20:	32.484246101112454	Epoch:	8
+start predicting: 2020-07-23 12:45:52.153236
+current test result:
+	Recall@20:	69.12701252236137	MMR@20:	29.363445960003205	Epoch:	8
+epoch: 9, ===========================================
+start training: 2020-07-23 12:46:07.969920
+start predicting train data: 2020-07-23 12:47:41.956588
+current train result:
+	Recall@20:	72.52960259529603	MMR@20:	32.494625799612415	Epoch:	9
+start predicting: 2020-07-23 12:49:27.022494
+current test result:
+	Recall@20:	69.14132379248659	MMR@20:	29.36509731849756	Epoch:	9
+epoch: 10, ===========================================
+start training: 2020-07-23 12:49:43.271050
+start predicting train data: 2020-07-23 12:51:19.863355
+current train result:
+	Recall@20:	72.52960259529603	MMR@20:	32.49950210223249	Epoch:	10
+start predicting: 2020-07-23 12:53:02.758099
+current test result:
+	Recall@20:	69.14132379248659	MMR@20:	29.36967395441963	Epoch:	10
+epoch: 11, ===========================================
+start training: 2020-07-23 12:53:18.600686
+start predicting train data: 2020-07-23 12:54:54.294695
+current train result:
+	Recall@20:	72.53068396864018	MMR@20:	32.49942298548024	Epoch:	11
+start predicting: 2020-07-23 12:56:37.151483
+current test result:
+	Recall@20:	69.14311270125224	MMR@20:	29.37057746089326	Epoch:	11
+epoch: 12, ===========================================
+start training: 2020-07-23 12:56:52.959359
+start predicting train data: 2020-07-23 12:58:25.614247
+current train result:
+	Recall@20:	72.52987293863207	MMR@20:	32.497386276439606	Epoch:	12
+start predicting: 2020-07-23 13:00:08.423190
+current test result:
+	Recall@20:	69.14847942754919	MMR@20:	29.372950855892103	Epoch:	12
+epoch: 13, ===========================================
+start training: 2020-07-23 13:00:24.179114
+start predicting train data: 2020-07-23 13:01:56.575979
+current train result:
+	Recall@20:	72.53068396864018	MMR@20:	32.49830827142109	Epoch:	13
+start predicting: 2020-07-23 13:03:39.532533
+current test result:
+	Recall@20:	69.14669051878354	MMR@20:	29.372898926760175	Epoch:	13
+epoch: 14, ===========================================
+start training: 2020-07-23 13:03:55.305333
+start predicting train data: 2020-07-23 13:05:27.253749
+current train result:
+	Recall@20:	72.5301432819681	MMR@20:	32.49832178838698	Epoch:	14
+start predicting: 2020-07-23 13:07:09.933252
+current test result:
+	Recall@20:	69.1520572450805	MMR@20:	29.373908722654757	Epoch:	14
+epoch: 15, ===========================================
+start training: 2020-07-23 13:07:25.711270
+start predicting train data: 2020-07-23 13:08:57.671896
+current train result:
+	Recall@20:	72.5301432819681	MMR@20:	32.49781328575312	Epoch:	15
+start predicting: 2020-07-23 13:10:40.457904
+current test result:
+	Recall@20:	69.1520572450805	MMR@20:	29.37388600635297	Epoch:	15
+epoch: 16, ===========================================
+start training: 2020-07-23 13:10:56.182833
+start predicting train data: 2020-07-23 13:12:28.600182
+current train result:
+	Recall@20:	72.52689916193566	MMR@20:	32.49704667525988	Epoch:	16
+start predicting: 2020-07-23 13:14:12.356742
+current test result:
+	Recall@20:	69.15026833631485	MMR@20:	29.37293752712762	Epoch:	16
+epoch: 17, ===========================================
+start training: 2020-07-23 13:14:28.166445
+start predicting train data: 2020-07-23 13:16:01.121541
+current train result:
+	Recall@20:	72.52771019194377	MMR@20:	32.49802163800465	Epoch:	17
+start predicting: 2020-07-23 13:17:45.968372
+current test result:
+	Recall@20:	69.15026833631485	MMR@20:	29.372972338037943	Epoch:	17
+epoch: 18, ===========================================
+start training: 2020-07-23 13:18:01.919696
+start predicting train data: 2020-07-23 13:19:35.497648
+current train result:
+	Recall@20:	72.5279805352798	MMR@20:	32.49911525767087	Epoch:	18
+start predicting: 2020-07-23 13:21:19.691033
+current test result:
+	Recall@20:	69.15026833631485	MMR@20:	29.372972338037943	Epoch:	18
+epoch: 19, ===========================================
+start training: 2020-07-23 13:21:35.531648
+start predicting train data: 2020-07-23 13:23:09.644217
+current train result:
+	Recall@20:	72.52879156528792	MMR@20:	32.49796771383409	Epoch:	19
+start predicting: 2020-07-23 13:24:54.961494
+current test result:
+	Recall@20:	69.15026833631485	MMR@20:	29.372972338037943	Epoch:	19
+epoch: 20, ===========================================
+start training: 2020-07-23 13:25:11.585019
+start predicting train data: 2020-07-23 13:26:45.730789
+current train result:
+	Recall@20:	72.52825087861584	MMR@20:	32.497937694330396	Epoch:	20
+start predicting: 2020-07-23 13:28:30.741120
+current test result:
+	Recall@20:	69.15026833631485	MMR@20:	29.372972338037943	Epoch:	20
+epoch: 21, ===========================================
+start training: 2020-07-23 13:28:47.777539
+start predicting train data: 2020-07-23 13:30:21.062686
+current train result:
+	Recall@20:	72.52825087861584	MMR@20:	32.498383541913626	Epoch:	21
+start predicting: 2020-07-23 13:32:05.062521
+current test result:
+	Recall@20:	69.15026833631485	MMR@20:	29.372972338037943	Epoch:	21
+epoch: 22, ===========================================
+start training: 2020-07-23 13:32:20.899149
+start predicting train data: 2020-07-23 13:33:53.704742
+current train result:
+	Recall@20:	72.52933225195999	MMR@20:	32.49873693912683	Epoch:	22
+start predicting: 2020-07-23 13:35:36.724126
+current test result:
+	Recall@20:	69.15026833631485	MMR@20:	29.372972338037943	Epoch:	22
+epoch: 23, ===========================================
+start training: 2020-07-23 13:35:52.629572
+start predicting train data: 2020-07-23 13:37:26.764200
+current train result:
+	Recall@20:	72.5271695052717	MMR@20:	32.49740792625837	Epoch:	23
+start predicting: 2020-07-23 13:39:10.259363
+current test result:
+	Recall@20:	69.15026833631485	MMR@20:	29.372972338037943	Epoch:	23
+epoch: 24, ===========================================
+start training: 2020-07-23 13:39:26.289476
+start predicting train data: 2020-07-23 13:40:59.980119
+current train result:
+	Recall@20:	72.52906190862394	MMR@20:	32.498249316252235	Epoch:	24
+start predicting: 2020-07-23 13:42:44.392802
+current test result:
+	Recall@20:	69.15026833631485	MMR@20:	29.372972338037943	Epoch:	24
